@@ -1,0 +1,29 @@
+{
+  "name": "extensible-discord-bot",
+  "version": "1.0.0",
+  "description": "A discord bot that can be extended with an OpenAPI described API",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "jest",
+    "start": "make run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tytrox/extensible-discord-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Jack Waller <jack@5barg8.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Tytrox/extensible-discord-bot/issues"
+  },
+  "homepage": "https://github.com/Tytrox/extensible-discord-bot#readme",
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "prettier": "3.0.2",
+    "typescript": "^5.1.6"
+  }
+}
