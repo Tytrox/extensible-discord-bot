@@ -9,7 +9,7 @@ build: $(TS_SRC_FILES) node_modules
 
 .test: $(TS_TEST_FILES) $(TS_SRC_FILES) node_modules
 	-rm .test 2> /dev/null
-	jest
+	npx jest
 	touch .test
 
 node_modules: package.json package-lock.json
