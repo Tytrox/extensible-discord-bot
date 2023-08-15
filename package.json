@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "build": "make build",
-    "test": "make test",
+    "test": "make .test",
     "start": "make run",
     "clean": "make clean"
   },

@@ -5,4 +5,7 @@ describe("testing main file", () => {
   test("one plus one = 2", () => {
     expect(add(1, 1)).toBe(2);
   });
+  test("succeeds", () => {
+    expect(true).toBe(true);
+  });
 });
