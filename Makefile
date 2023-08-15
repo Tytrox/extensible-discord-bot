@@ -6,6 +6,9 @@ run: build
 build: $(TS_FILES) node_modules
 	tsc --build
 
+test: $(TS_FILES) node_modules
+	npx jest
+
 node_modules: package.json package-lock.json
 	npm ci
 

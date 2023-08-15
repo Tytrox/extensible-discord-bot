@@ -4,8 +4,10 @@
   "description": "A discord bot that can be extended with an OpenAPI described API",
   "main": "src/main.js",
   "scripts": {
-    "test": "jest",
-    "start": "make run"
+    "build": "make build",
+    "test": "make test",
+    "start": "make run",
+    "clean": "make clean"
   },
   "repository": {
     "type": "git",

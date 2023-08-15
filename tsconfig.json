@@ -5,7 +5,8 @@
     "removeComments": true,
     "sourceMap": false,
     "target": "ES6",
-    "outDir": "build"
+    "outDir": "build",
+    "moduleResolution": "node"
   },
   "include": [
     "src/**/*"
