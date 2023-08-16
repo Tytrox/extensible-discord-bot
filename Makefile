@@ -7,7 +7,7 @@ run: build
 build: $(TS_SRC_FILES) node_modules
 	tsc --build
 
-.test: $(TS_TEST_FILES) $(TS_SRC_FILES) node_modules
+.test: $(TS_TEST_FILES) build
 	-rm .test 2> /dev/null
 	npx jest --coverage
 	touch .test
