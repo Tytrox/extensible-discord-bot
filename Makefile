@@ -9,7 +9,7 @@ build: $(TS_SRC_FILES) node_modules
 
 .test: $(TS_TEST_FILES) $(TS_SRC_FILES) node_modules
 	-rm .test 2> /dev/null
-	npx jest
+	npx jest --coverage
 	touch .test
 
 node_modules: package.json package-lock.json
@@ -17,9 +17,10 @@ node_modules: package.json package-lock.json
 
 clean_build:
 	-rm -rf build
+	-rm .test
 
 clean_node:
 	-rm -rf node_modules
 
 clean: clean_build clean_node
-	-rm .test
+	-rm -rf coverage

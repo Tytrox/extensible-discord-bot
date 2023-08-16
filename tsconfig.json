@@ -3,7 +3,7 @@
     "noImplicitAny": false,
     "noEmitOnError": true,
     "removeComments": true,
-    "sourceMap": false,
+    "sourceMap": true,
     "target": "ES6",
     "outDir": "build",
     "moduleResolution": "node"
